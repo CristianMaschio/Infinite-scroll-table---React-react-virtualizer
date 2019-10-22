@@ -1,0 +1,29 @@
+.table {
+  width: calc(100vw - 80px);
+  margin: auto;
+}
+
+.table-nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.prev-button {
+  cursor: pointer;
+  flex: 1;
+  font-weight: bold;
+}
+
+.next-button {
+  cursor: pointer;
+  flex: 1;
+  font-weight: bold;
+}
+
+.disable {
+  cursor: auto;
+  color: lightgray;
+  font-weight: normal;
+}
